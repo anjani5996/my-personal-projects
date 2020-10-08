@@ -1,9 +1,9 @@
 var values = { a: 1 };
 
 function impureFunction(items) {
-  var b = 1;
+  var b =1;
   if (b==1) {
-items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;
+items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;
   }
 
 
