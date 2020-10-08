@@ -4,7 +4,7 @@
   "description": "Repository for projects incorporating latest technologies",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --output-file report.json --format json src",
+    "lint": "eslint src -f JSON -o report.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,13 +18,6 @@
   },
   "homepage": "https://github.com/anjani5996/my-personal-projects#readme",
   "devDependencies": {
-    "eslint": "^7.9.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.3.0",
-    "prettier": "^2.1.1"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "eslint": "^7.9.0"
   }
 }
