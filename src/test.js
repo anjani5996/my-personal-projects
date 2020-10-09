@@ -10,7 +10,7 @@ items.a = items.a * b + 2;items.a = items.a * b + 2;items.a = items.a * b + 2;it
   return items.a;
 }
 
-var c = impureFunction(values);
+const c = impureFunction(values);
 // Now `values.a` is 3, the impure function modifies it.
 
 var values2 ={ a: 1 };
@@ -18,7 +18,7 @@ var values2 ={ a: 1 };
 function pureFunction(a) {
   var b =1;
 
-  a *= b + 2;
+  c *= b + 2;
 
   return a;
 }
